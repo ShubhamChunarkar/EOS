@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="51388bf89790ca9098ba72571153afbc" label="Employee Details" max_length="40" name="x_1215143_employee_employee_details" type="collection">
+        <element label="Contact No." mandatory="true" max_length="40" name="contact_no" type="string"/>
+        <element label="Country" max_length="32" name="country" reference="core_country" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Email" mandatory="true" max_length="40" name="email" type="string"/>
+        <element label="Employee Name" max_length="40" name="employee_name" type="string"/>
+        <element choice="1" label="Employment Type" max_length="40" name="employment_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Contract" value="contract"/>
+                <element inactive_on_update="false" label="Full TIme" value="full time"/>
+                <element inactive_on_update="false" label="Part Time" value="part time"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Gender" mandatory="true" max_length="40" name="gender" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Female" value="female"/>
+                <element inactive_on_update="false" label="Male" value="male"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Joining Date" mandatory="true" max_length="40" name="joining_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Location" mandatory="true" max_length="40" name="location" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Bangalore" value="bangalore"/>
+                <element inactive_on_update="false" label="Hyderabad" value="hyderabad"/>
+                <element inactive_on_update="false" label="Mumbai" value="mumbai"/>
+                <element inactive_on_update="false" label="Noida" value="noida"/>
+                <element inactive_on_update="false" label="Pune" value="pune"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Time Zone" max_length="40" name="time_zone" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="EST UTC-5" value="EST UTC-5"/>
+                <element inactive_on_update="false" label="GMT UTC+0" value="GMT UTC+0"/>
+                <element inactive_on_update="false" label="IST UTC+5:30" value="IST UTC+5:30"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="country"/>
+        </index>
+    </element>
+</database>

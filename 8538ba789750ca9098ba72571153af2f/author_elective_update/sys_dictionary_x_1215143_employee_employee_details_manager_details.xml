@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="manager_details" table="x_1215143_employee_employee_details">
+        <active>true</active>
+        <array>false</array>
+        <attributes>edge_encryption_enabled=true</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Manager Details</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>manager_details</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <name>x_1215143_employee_employee_details</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual>null</reference_qual>
+        <reference_qual_condition>null</reference_qual_condition>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-09 13:13:34</sys_created_on>
+        <sys_id>2d38cbf89790ca9098ba72571153af5a</sys_id>
+        <sys_name>Manager Details</sys_name>
+        <sys_package display_value="Employee Onboarding Application" source="x_1215143_employee">8538ba789750ca9098ba72571153af2f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Onboarding Application">8538ba789750ca9098ba72571153af2f</sys_scope>
+        <sys_update_name>sys_dictionary_x_1215143_employee_employee_details_manager_details</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-11 10:43:12</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Onboarding Application">8538ba789750ca9098ba72571153af2f</application>
+        <file_path/>
+        <instance_id>8d4bc5c01b5c7c10c8432f8dee4bcb78</instance_id>
+        <instance_name>dev117239</instance_name>
+        <name>sys_dictionary_x_1215143_employee_employee_details_manager_details</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="manager_details" table="x_1215143_employee_employee_details"><active>true</active><array>false</array><attributes>edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice/><choice_field/><choice_table/><column_label>Manager Details</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>manager_details</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>true</mandatory><max_length>40</max_length><name>x_1215143_employee_employee_details</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual>null</reference_qual><reference_qual_condition>null</reference_qual_condition><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-09 13:13:34</sys_created_on><sys_id>2d38cbf89790ca9098ba72571153af5a</sys_id><sys_name>Manager Details</sys_name><sys_package display_value="Employee Onboarding Application" source="x_1215143_employee">8538ba789750ca9098ba72571153af2f</sys_package><sys_policy/><sys_scope display_value="Employee Onboarding Application">8538ba789750ca9098ba72571153af2f</sys_scope><sys_update_name>sys_dictionary_x_1215143_employee_employee_details_manager_details</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-11 10:43:12</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>1622264441</payload_hash>
+        <record_name>Employee Details.Manager Details</record_name>
+        <reverted_from/>
+        <source>0938ba789750ca9098ba72571153af33</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-11 10:43:12</sys_created_on>
+        <sys_id>26f8742597d0421098ba72571153af45</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d97c38f390000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-11 10:43:12</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>eaf87425e1d04210dbdd31e5dd09d644</update_guid>
+        <update_guid_history>eaf87425e1d04210dbdd31e5dd09d644:1622264441,f938cbf8d490ca905d09c603c23317c0:1594524800,e938cbf83d90ca906749cafef842fc8a:1027952885</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-11 10:52:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>9ac6f36dbc414cda86aae2a7e8c50604</sys_id>
+        <sys_metadata>2d38cbf89790ca9098ba72571153af5a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Manager Details</sys_name>
+        <sys_package display_value="Employee Onboarding Application" source="x_1215143_employee">8538ba789750ca9098ba72571153af2f</sys_package>
+        <sys_parent display_value="Employee Details">51388bf89790ca9098ba72571153afbc</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Employee Onboarding Application">8538ba789750ca9098ba72571153af2f</sys_scope>
+        <sys_scope_delete display_value="">7105fb4a6619475b991a554473128169</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_1215143_employee_employee_details_manager_details</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_1215143_employee_employee_details_manager_details">26f8742597d0421098ba72571153af45</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-11 10:52:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

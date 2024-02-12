@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="employment_type" label="Employment Type" language="en" table="x_1215143_employee_employee_details">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>employment_type</element>
+            <help/>
+            <hint/>
+            <label>Employment Type</label>
+            <language>en</language>
+            <name>x_1215143_employee_employee_details</name>
+            <plural>Employment Types</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-10 12:12:54</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Employment Type</sys_name>
+            <sys_package display_value="Employee Onboarding Application" source="x_1215143_employee">8538ba789750ca9098ba72571153af2f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Employee Onboarding Application">8538ba789750ca9098ba72571153af2f</sys_scope>
+            <sys_update_name>sys_documentation_x_1215143_employee_employee_details_employment_type_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-10 12:12:54</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

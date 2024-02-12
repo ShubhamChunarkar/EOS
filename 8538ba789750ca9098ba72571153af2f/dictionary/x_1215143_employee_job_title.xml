@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="e191049197180e9098ba72571153afde" label="Job Title" max_length="40" name="x_1215143_employee_job_title" type="collection">
+        <element label="Certifications/Licenses:" max_length="40" name="certifications_licenses" type="string"/>
+        <element choice="1" label="Department" max_length="40" name="department" type="choice">
+            <choice/>
+        </element>
+        <element label="Description" max_length="40" name="description" type="string"/>
+        <element choice="1" label="Employment Type" max_length="40" name="employment_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Contract" value="contract"/>
+                <element inactive_on_update="false" label="Full Time" value="full time"/>
+                <element inactive_on_update="false" label="Part Time" value="part time"/>
+            </choice>
+        </element>
+        <element label="Experience Level" max_length="40" name="experience_level" type="string"/>
+        <element label="Job TItle" max_length="40" name="job_title" type="string"/>
+        <element label="Reports to" max_length="32" name="reports_to" reference="sys_user" type="reference"/>
+        <element label="Required Qualification" max_length="40" name="required_qualification" type="string"/>
+        <element label="Salary Range" max_length="40" name="salary_range" type="string"/>
+        <element label="Skills/Competencies" max_length="40" name="skills_competencies" type="string"/>
+        <index name="index">
+            <element name="reports_to"/>
+        </index>
+    </element>
+</database>

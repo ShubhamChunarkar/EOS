@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d3cbb78997d40e9098ba72571153af21" label="Department" max_length="40" name="x_1215143_employee_department" type="collection">
+        <element label="Creation Date" max_length="40" name="creation_date" type="glide_date_time"/>
+        <element label="Department Head" max_length="40" name="department_head" reference="sys_user" type="reference"/>
+        <element display="true" label="Department Name" max_length="40" name="department_name" type="string"/>
+    </element>
+</database>
